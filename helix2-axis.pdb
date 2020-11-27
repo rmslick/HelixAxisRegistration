@@ -1,0 +1,407 @@
+HETATM    1 CAG LYA      0       7.455  39.932   5.590  5.00  0.00          Ca
+HETATM    2 CAG LYA      1       7.478  39.916   5.550  1.00  0.00          Ca
+HETATM    3 CAG LYA      2       7.504  39.898   5.500  2.00  0.00          Ca
+HETATM    4 CAG LYA      3       7.531  39.879   5.440  9.00  0.00          Ca
+HETATM    5 CAG LYA      4       7.561  39.858   5.390  2.00  0.00          Ca
+HETATM    6 CAG LYA      5       7.593  39.836   5.330  1.00  0.00          Ca
+HETATM    7 CAG LYA      6       7.626  39.812   5.260  6.00  0.00          Ca
+HETATM    8 CAG LYA      7       7.662  39.787   5.190  8.00  0.00          Ca
+HETATM    9 CAG LYA      8       7.699  39.761   5.120  6.00  0.00          Ca
+HETATM   10 CAG LYA      9       7.738  39.734   5.050  2.00  0.00          Ca
+HETATM   11 CAG LYA     10       7.778  39.706   4.970  4.00  0.00          Ca
+HETATM   12 CAG LYA     11       7.820  39.676   4.890  3.00  0.00          Ca
+HETATM   13 CAG LYA     12       7.863  39.646   4.810  0.00  0.00          Ca
+HETATM   14 CAG LYA     13       7.908  39.615   4.720  4.00  0.00          Ca
+HETATM   15 CAG LYA     14       7.954  39.583   4.630  6.00  0.00          Ca
+HETATM   16 CAG LYA     15       8.000  39.550   4.540  6.00  0.00          Ca
+HETATM   17 CAG LYA     16       8.048  39.516   4.450  4.00  0.00          Ca
+HETATM   18 CAG LYA     17       8.097  39.482   4.360  0.00  0.00          Ca
+HETATM   19 CAG LYA     18       8.147  39.447   4.260  4.00  0.00          Ca
+HETATM   20 CAG LYA     19       8.197  39.412   4.160  7.00  0.00          Ca
+HETATM   21 CAG LYA     20       8.248  39.376   4.060  9.00  0.00          Ca
+HETATM   22 CAG LYA     21       8.300  39.340   3.970  0.00  0.00          Ca
+HETATM   23 CAG LYA     22       8.352  39.303   3.860  9.00  0.00          Ca
+HETATM   24 CAG LYA     23       8.405  39.266   3.760  8.00  0.00          Ca
+HETATM   25 CAG LYA     24       8.458  39.229   3.660  6.00  0.00          Ca
+HETATM   26 CAG LYA     25       8.511  39.192   3.560  4.00  0.00          Ca
+HETATM   27 CAG LYA     26       8.564  39.155   3.460  1.00  0.00          Ca
+HETATM   28 CAG LYA     27       8.617  39.118   3.350  9.00  0.00          Ca
+HETATM   29 CAG LYA     28       8.670  39.080   3.250  6.00  0.00          Ca
+HETATM   30 CAG LYA     29       8.723  39.043   3.150  4.00  0.00          Ca
+HETATM   31 CAG LYA     30       8.776  39.006   3.050  2.00  0.00          Ca
+HETATM   32 CAG LYA     31       8.829  38.969   2.950  1.00  0.00          Ca
+HETATM   33 CAG LYA     32       8.881  38.933   2.850  1.00  0.00          Ca
+HETATM   34 CAG LYA     33       8.932  38.897   2.750  1.00  0.00          Ca
+HETATM   35 CAG LYA     34       8.983  38.861   2.650  3.00  0.00          Ca
+HETATM   36 CAG LYA     35       9.034  38.826   2.550  6.00  0.00          Ca
+HETATM   37 CAG LYA     36       9.083  38.791   2.460  0.00  0.00          Ca
+HETATM   38 CAG LYA     37       9.132  38.757   2.360  6.00  0.00          Ca
+HETATM   39 CAG LYA     38       9.180  38.724   2.270  4.00  0.00          Ca
+HETATM   40 CAG LYA     39       9.226  38.691   2.180  4.00  0.00          Ca
+HETATM   41 CAG LYA     40       9.272  38.659   2.090  6.00  0.00          Ca
+HETATM   42 CAG LYA     41       9.316  38.628   2.010  0.00  0.00          Ca
+HETATM   43 CAG LYA     42       9.359  38.598   1.920  7.00  0.00          Ca
+HETATM   44 CAG LYA     43       9.401  38.569   1.840  6.00  0.00          Ca
+HETATM   45 CAG LYA     44       9.441  38.541   1.760  8.00  0.00          Ca
+HETATM   46 CAG LYA     45       9.479  38.514   1.690  3.00  0.00          Ca
+HETATM   47 CAG LYA     46       9.516  38.488   1.620  2.00  0.00          Ca
+HETATM   48 CAG LYA     47       9.551  38.463   1.550  3.00  0.00          Ca
+HETATM   49 CAG LYA     48       9.585  38.440   1.480  9.00  0.00          Ca
+HETATM   50 CAG LYA     49       9.616  38.418   1.420  8.00  0.00          Ca
+HETATM   51 CAG LYA     50       9.645  38.398   1.370  0.00  0.00          Ca
+HETATM   52 CAG LYA     51       9.732  38.337   1.190  9.00  0.00          Ca
+HETATM   53 CAG LYA     52       9.807  38.285   1.050  0.00  0.00          Ca
+HETATM   54 CAG LYA     53       9.870  38.241   0.920  3.00  0.00          Ca
+HETATM   55 CAG LYA     54       9.924  38.204   0.810  3.00  0.00          Ca
+HETATM   56 CAG LYA     55       9.969  38.172   0.720  0.00  0.00          Ca
+HETATM   57 CAG LYA     56      10.007  38.146   0.630  9.00  0.00          Ca
+HETATM   58 CAG LYA     57      10.040  38.123   0.560  8.00  0.00          Ca
+HETATM   59 CAG LYA     58      10.069  38.103   0.500  6.00  0.00          Ca
+HETATM   60 CAG LYA     59      10.095  38.086   0.440  9.00  0.00          Ca
+HETATM   61 CAG LYA     60      10.120  38.068   0.390  4.00  0.00          Ca
+HETATM   62 CAG LYA     61      10.145  38.051   0.340  0.00  0.00          Ca
+HETATM   63 CAG LYA     62      10.172  38.032   0.280  3.00  0.00          Ca
+HETATM   64 CAG LYA     63      10.202  38.012   0.220  2.00  0.00          Ca
+HETATM   65 CAG LYA     64      10.237  37.987   0.150  3.00  0.00          Ca
+HETATM   66 CAG LYA     65      10.278  37.959   0.070  3.00  0.00          Ca
+HETATM   67 CAG LYA     66      10.278  37.959   0.070  3.00  0.00          Ca
+HETATM   68 CAG LYA     67      10.322  37.928  -0.010  2.00  0.00          Ca
+HETATM   69 CAG LYA     68      10.367  37.897  -0.090  7.00  0.00          Ca
+HETATM   70 CAG LYA     69      10.412  37.865  -0.180  1.00  0.00          Ca
+HETATM   71 CAG LYA     70      10.458  37.834  -0.260  6.00  0.00          Ca
+HETATM   72 CAG LYA     71      10.504  37.802  -0.350  0.00  0.00          Ca
+HETATM   73 CAG LYA     72      10.550  37.769  -0.430  4.00  0.00          Ca
+HETATM   74 CAG LYA     73      10.597  37.737  -0.510  8.00  0.00          Ca
+HETATM   75 CAG LYA     74      10.643  37.704  -0.600  1.00  0.00          Ca
+HETATM   76 CAG LYA     75      10.690  37.672  -0.680  5.00  0.00          Ca
+HETATM   77 CAG LYA     76      10.737  37.639  -0.760  8.00  0.00          Ca
+HETATM   78 CAG LYA     77      10.784  37.605  -0.850  2.00  0.00          Ca
+HETATM   79 CAG LYA     78      10.830  37.572  -0.930  5.00  0.00          Ca
+HETATM   80 CAG LYA     79      10.877  37.538  -1.010  8.00  0.00          Ca
+HETATM   81 CAG LYA     80      10.923  37.504  -1.100  2.00  0.00          Ca
+HETATM   82 CAG LYA     81      10.969  37.470  -1.180  5.00  0.00          Ca
+HETATM   83 CAG LYA     82      10.969  37.470  -1.180  5.00  0.00          Ca
+HETATM   84 CAG LYA     83      11.015  37.436  -1.260  8.00  0.00          Ca
+HETATM   85 CAG LYA     84      11.061  37.401  -1.350  1.00  0.00          Ca
+HETATM   86 CAG LYA     85      11.107  37.365  -1.430  4.00  0.00          Ca
+HETATM   87 CAG LYA     86      11.153  37.330  -1.510  6.00  0.00          Ca
+HETATM   88 CAG LYA     87      11.198  37.294  -1.590  9.00  0.00          Ca
+HETATM   89 CAG LYA     88      11.244  37.258  -1.680  1.00  0.00          Ca
+HETATM   90 CAG LYA     89      11.290  37.222  -1.760  3.00  0.00          Ca
+HETATM   91 CAG LYA     90      11.335  37.186  -1.840  6.00  0.00          Ca
+HETATM   92 CAG LYA     91      11.381  37.149  -1.920  8.00  0.00          Ca
+HETATM   93 CAG LYA     92      11.427  37.113  -2.010  0.00  0.00          Ca
+HETATM   94 CAG LYA     93      11.473  37.076  -2.090  3.00  0.00          Ca
+HETATM   95 CAG LYA     94      11.518  37.040  -2.170  5.00  0.00          Ca
+HETATM   96 CAG LYA     95      11.564  37.003  -2.250  7.00  0.00          Ca
+HETATM   97 CAG LYA     96      11.610  36.967  -2.340  0.00  0.00          Ca
+HETATM   98 CAG LYA     97      11.656  36.931  -2.420  2.00  0.00          Ca
+HETATM   99 CAG LYA     98      11.656  36.931  -2.420  2.00  0.00          Ca
+HETATM  100 CAG LYA     99      11.702  36.895  -2.500  5.00  0.00          Ca
+HETATM  101 CAG LYA  1   0      11.748  36.859  -2.580  7.00  0.00          Ca
+HETATM  102 CAG LYA  1   1      11.793  36.823  -2.670  0.00  0.00          Ca
+HETATM  103 CAG LYA  1   2      11.839  36.787  -2.750  3.00  0.00          Ca
+HETATM  104 CAG LYA  1   3      11.885  36.750  -2.830  6.00  0.00          Ca
+HETATM  105 CAG LYA  1   4      11.931  36.714  -2.910  9.00  0.00          Ca
+HETATM  106 CAG LYA  1   5      11.977  36.678  -3.000  1.00  0.00          Ca
+HETATM  107 CAG LYA  1   6      12.022  36.642  -3.080  4.00  0.00          Ca
+HETATM  108 CAG LYA  1   7      12.069  36.606  -3.160  7.00  0.00          Ca
+HETATM  109 CAG LYA  1   8      12.115  36.570  -3.240  9.00  0.00          Ca
+HETATM  110 CAG LYA  1   9      12.161  36.533  -3.330  2.00  0.00          Ca
+HETATM  111 CAG LYA  1  10      12.208  36.497  -3.410  4.00  0.00          Ca
+HETATM  112 CAG LYA  1  11      12.255  36.461  -3.490  7.00  0.00          Ca
+HETATM  113 CAG LYA  1  12      12.302  36.424  -3.570  9.00  0.00          Ca
+HETATM  114 CAG LYA  1  13      12.349  36.388  -3.660  1.00  0.00          Ca
+HETATM  115 CAG LYA  1  14      12.349  36.388  -3.660  1.00  0.00          Ca
+HETATM  116 CAG LYA  1  15      12.397  36.351  -3.740  3.00  0.00          Ca
+HETATM  117 CAG LYA  1  16      12.446  36.315  -3.820  4.00  0.00          Ca
+HETATM  118 CAG LYA  1  17      12.494  36.279  -3.900  6.00  0.00          Ca
+HETATM  119 CAG LYA  1  18      12.543  36.242  -3.980  7.00  0.00          Ca
+HETATM  120 CAG LYA  1  19      12.592  36.206  -4.060  9.00  0.00          Ca
+HETATM  121 CAG LYA  1  20      12.641  36.170  -4.150  0.00  0.00          Ca
+HETATM  122 CAG LYA  1  21      12.691  36.134  -4.230  1.00  0.00          Ca
+HETATM  123 CAG LYA  1  22      12.740  36.097  -4.310  2.00  0.00          Ca
+HETATM  124 CAG LYA  1  23      12.790  36.061  -4.390  3.00  0.00          Ca
+HETATM  125 CAG LYA  1  24      12.839  36.024  -4.470  4.00  0.00          Ca
+HETATM  126 CAG LYA  1  25      12.889  35.987  -4.550  5.00  0.00          Ca
+HETATM  127 CAG LYA  1  26      12.939  35.950  -4.630  6.00  0.00          Ca
+HETATM  128 CAG LYA  1  27      12.988  35.912  -4.710  6.00  0.00          Ca
+HETATM  129 CAG LYA  1  28      13.038  35.875  -4.790  7.00  0.00          Ca
+HETATM  130 CAG LYA  1  29      13.087  35.837  -4.870  7.00  0.00          Ca
+HETATM  131 CAG LYA  1  30      13.087  35.837  -4.870  7.00  0.00          Ca
+HETATM  132 CAG LYA  1  31      13.137  35.798  -4.950  7.00  0.00          Ca
+HETATM  133 CAG LYA  1  32      13.187  35.760  -5.030  7.00  0.00          Ca
+HETATM  134 CAG LYA  1  33      13.237  35.721  -5.110  7.00  0.00          Ca
+HETATM  135 CAG LYA  1  34      13.287  35.682  -5.190  7.00  0.00          Ca
+HETATM  136 CAG LYA  1  35      13.337  35.643  -5.270  6.00  0.00          Ca
+HETATM  137 CAG LYA  1  36      13.387  35.604  -5.350  6.00  0.00          Ca
+HETATM  138 CAG LYA  1  37      13.437  35.565  -5.430  5.00  0.00          Ca
+HETATM  139 CAG LYA  1  38      13.487  35.525  -5.510  4.00  0.00          Ca
+HETATM  140 CAG LYA  1  39      13.537  35.485  -5.590  3.00  0.00          Ca
+HETATM  141 CAG LYA  1  40      13.587  35.445  -5.670  3.00  0.00          Ca
+HETATM  142 CAG LYA  1  41      13.636  35.405  -5.750  2.00  0.00          Ca
+HETATM  143 CAG LYA  1  42      13.686  35.364  -5.830  2.00  0.00          Ca
+HETATM  144 CAG LYA  1  43      13.734  35.324  -5.910  1.00  0.00          Ca
+HETATM  145 CAG LYA  1  44      13.783  35.283  -5.990  1.00  0.00          Ca
+HETATM  146 CAG LYA  1  45      13.830  35.242  -6.070  1.00  0.00          Ca
+HETATM  147 CAG LYA  1  46      13.830  35.242  -6.070  1.00  0.00          Ca
+HETATM  148 CAG LYA  1  47      13.875  35.203  -6.140  7.00  0.00          Ca
+HETATM  149 CAG LYA  1  48      13.915  35.167  -6.210  5.00  0.00          Ca
+HETATM  150 CAG LYA  1  49      13.951  35.133  -6.270  9.00  0.00          Ca
+HETATM  151 CAG LYA  1  50      13.985  35.101  -6.330  9.00  0.00          Ca
+HETATM  152 CAG LYA  1  51      14.017  35.070  -6.390  7.00  0.00          Ca
+HETATM  153 CAG LYA  1  52      14.049  35.038  -6.450  5.00  0.00          Ca
+HETATM  154 CAG LYA  1  53      14.082  35.006  -6.510  6.00  0.00          Ca
+HETATM  155 CAG LYA  1  54      14.117  34.971  -6.570  9.00  0.00          Ca
+HETATM  156 CAG LYA  1  55      14.155  34.934  -6.640  8.00  0.00          Ca
+HETATM  157 CAG LYA  1  56      14.198  34.893  -6.720  5.00  0.00          Ca
+HETATM  158 CAG LYA  1  57      14.245  34.847  -6.810  0.00  0.00          Ca
+HETATM  159 CAG LYA  1  58      14.300  34.797  -6.900  6.00  0.00          Ca
+HETATM  160 CAG LYA  1  59      14.362  34.739  -7.010  5.00  0.00          Ca
+HETATM  161 CAG LYA  1  60      14.434  34.675  -7.130  8.00  0.00          Ca
+HETATM  162 CAG LYA  1  61      14.515  34.603  -7.270  7.00  0.00          Ca
+HETATM  163 CAG LYA  1  62      14.515  34.603  -7.270  7.00  0.00          Ca
+HETATM  164 CAG LYA  1  63      14.548  34.574  -7.330  3.00  0.00          Ca
+HETATM  165 CAG LYA  1  64      14.583  34.543  -7.390  3.00  0.00          Ca
+HETATM  166 CAG LYA  1  65      14.621  34.509  -7.450  7.00  0.00          Ca
+HETATM  167 CAG LYA  1  66      14.661  34.474  -7.520  5.00  0.00          Ca
+HETATM  168 CAG LYA  1  67      14.703  34.438  -7.590  6.00  0.00          Ca
+HETATM  169 CAG LYA  1  68      14.747  34.399  -7.670  0.00  0.00          Ca
+HETATM  170 CAG LYA  1  69      14.793  34.360  -7.740  8.00  0.00          Ca
+HETATM  171 CAG LYA  1  70      14.840  34.318  -7.820  8.00  0.00          Ca
+HETATM  172 CAG LYA  1  71      14.889  34.276  -7.910  0.00  0.00          Ca
+HETATM  173 CAG LYA  1  72      14.940  34.232  -7.990  5.00  0.00          Ca
+HETATM  174 CAG LYA  1  73      14.991  34.188  -8.080  1.00  0.00          Ca
+HETATM  175 CAG LYA  1  74      15.044  34.142  -8.170  0.00  0.00          Ca
+HETATM  176 CAG LYA  1  75      15.097  34.096  -8.260  0.00  0.00          Ca
+HETATM  177 CAG LYA  1  76      15.152  34.049  -8.350  2.00  0.00          Ca
+HETATM  178 CAG LYA  1  77      15.207  34.001  -8.440  4.00  0.00          Ca
+HETATM  179 CAG LYA  1  78      15.263  33.953  -8.530  8.00  0.00          Ca
+HETATM  180 CAG LYA  1  79      15.319  33.905  -8.630  2.00  0.00          Ca
+HETATM  181 CAG LYA  1  80      15.375  33.856  -8.720  7.00  0.00          Ca
+HETATM  182 CAG LYA  1  81      15.432  33.807  -8.820  1.00  0.00          Ca
+HETATM  183 CAG LYA  1  82      15.488  33.759  -8.910  6.00  0.00          Ca
+HETATM  184 CAG LYA  1  83      15.544  33.710  -9.010  1.00  0.00          Ca
+HETATM  185 CAG LYA  1  84      15.600  33.662  -9.100  5.00  0.00          Ca
+HETATM  186 CAG LYA  1  85      15.656  33.614  -9.190  8.00  0.00          Ca
+HETATM  187 CAG LYA  1  86      15.711  33.566  -9.290  1.00  0.00          Ca
+HETATM  188 CAG LYA  1  87      15.766  33.519  -9.380  2.00  0.00          Ca
+HETATM  189 CAG LYA  1  88      15.819  33.473  -9.470  2.00  0.00          Ca
+HETATM  190 CAG LYA  1  89      15.872  33.428  -9.560  0.00  0.00          Ca
+HETATM  191 CAG LYA  1  90      15.924  33.383  -9.640  7.00  0.00          Ca
+HETATM  192 CAG LYA  1  91      15.974  33.340  -9.730  1.00  0.00          Ca
+HETATM  193 CAG LYA  1  92      16.023  33.298  -9.810  3.00  0.00          Ca
+HETATM  194 CAG LYA  1  93      16.070  33.257  -9.890  3.00  0.00          Ca
+HETATM  195 CAG LYA  1  94      16.116  33.218  -9.970  0.00  0.00          Ca
+HETATM  196 CAG LYA  1  95      16.160  33.180 -10.040  4.00  0.00          Ca
+HETATM  197 CAG LYA  1  96      16.202  33.144 -10.110  4.00  0.00          Ca
+HETATM  198 CAG LYA  1  97      16.243  33.109 -10.180  1.00  0.00          Ca
+HETATM  199 CAG LYA  1  98      16.280  33.076 -10.240  5.00  0.00          Ca
+HETATM  200 CAG LYA  1  99      16.316  33.046 -10.300  5.00  0.00          Ca
+HETATM  201 CAG LYA  2   0      16.349  33.017 -10.360  0.00  0.00          Ca
+HETATM  202 CAG LYA  2   1      16.380  32.991 -10.410  1.00  0.00          Ca
+HETATM  203 CAG LYA  2   2      16.407  32.967 -10.450  8.00  0.00          Ca
+CONECT    1    2
+CONECT    2    3    1
+CONECT    3    4    2
+CONECT    4    5    3
+CONECT    5    6    4
+CONECT    6    7    5
+CONECT    7    8    6
+CONECT    8    9    7
+CONECT    9   10    8
+CONECT   10   11    9
+CONECT   11   12   10
+CONECT   12   13   11
+CONECT   13   14   12
+CONECT   14   15   13
+CONECT   15   16   14
+CONECT   16   17   15
+CONECT   17   18   16
+CONECT   18   19   17
+CONECT   19   20   18
+CONECT   20   21   19
+CONECT   21   22   20
+CONECT   22   23   21
+CONECT   23   24   22
+CONECT   24   25   23
+CONECT   25   26   24
+CONECT   26   27   25
+CONECT   27   28   26
+CONECT   28   29   27
+CONECT   29   30   28
+CONECT   30   31   29
+CONECT   31   32   30
+CONECT   32   33   31
+CONECT   33   34   32
+CONECT   34   35   33
+CONECT   35   36   34
+CONECT   36   37   35
+CONECT   37   38   36
+CONECT   38   39   37
+CONECT   39   40   38
+CONECT   40   41   39
+CONECT   41   42   40
+CONECT   42   43   41
+CONECT   43   44   42
+CONECT   44   45   43
+CONECT   45   46   44
+CONECT   46   47   45
+CONECT   47   48   46
+CONECT   48   49   47
+CONECT   49   50   48
+CONECT   50   51   49
+CONECT   51   52   50
+CONECT   52   53   51
+CONECT   53   54   52
+CONECT   54   55   53
+CONECT   55   56   54
+CONECT   56   57   55
+CONECT   57   58   56
+CONECT   58   59   57
+CONECT   59   60   58
+CONECT   60   61   59
+CONECT   61   62   60
+CONECT   62   63   61
+CONECT   63   64   62
+CONECT   64   65   63
+CONECT   65   66   64
+CONECT   66   65
+CONECT   67   68
+CONECT   68   69   67
+CONECT   69   70   68
+CONECT   70   71   69
+CONECT   71   72   70
+CONECT   72   73   71
+CONECT   73   74   72
+CONECT   74   75   73
+CONECT   75   76   74
+CONECT   76   77   75
+CONECT   77   78   76
+CONECT   78   79   77
+CONECT   79   80   78
+CONECT   80   81   79
+CONECT   81   82   80
+CONECT   82   81
+CONECT   83   84
+CONECT   84   85   83
+CONECT   85   86   84
+CONECT   86   87   85
+CONECT   87   88   86
+CONECT   88   89   87
+CONECT   89   90   88
+CONECT   90   91   89
+CONECT   91   92   90
+CONECT   92   93   91
+CONECT   93   94   92
+CONECT   94   95   93
+CONECT   95   96   94
+CONECT   96   97   95
+CONECT   97   98   96
+CONECT   98   97
+CONECT   99  100
+CONECT  100   99
+CONECT  101  102
+CONECT  102  103  101
+CONECT  103  104  102
+CONECT  104  105  103
+CONECT  105  106  104
+CONECT  106  107  105
+CONECT  107  108  106
+CONECT  108  109  107
+CONECT  109  110  108
+CONECT  110  111  109
+CONECT  111  112  110
+CONECT  112  113  111
+CONECT  113  114  112
+CONECT  114  113
+CONECT  115  116
+CONECT  116  117  115
+CONECT  117  118  116
+CONECT  118  119  117
+CONECT  119  120  118
+CONECT  120  121  119
+CONECT  121  122  120
+CONECT  122  123  121
+CONECT  123  124  122
+CONECT  124  125  123
+CONECT  125  126  124
+CONECT  126  127  125
+CONECT  127  128  126
+CONECT  128  129  127
+CONECT  129  130  128
+CONECT  130  129
+CONECT  131  132
+CONECT  132  133  131
+CONECT  133  134  132
+CONECT  134  135  133
+CONECT  135  136  134
+CONECT  136  137  135
+CONECT  137  138  136
+CONECT  138  139  137
+CONECT  139  140  138
+CONECT  140  141  139
+CONECT  141  142  140
+CONECT  142  143  141
+CONECT  143  144  142
+CONECT  144  145  143
+CONECT  145  146  144
+CONECT  146  145
+CONECT  147  148
+CONECT  148  149  147
+CONECT  149  150  148
+CONECT  150  151  149
+CONECT  151  152  150
+CONECT  152  153  151
+CONECT  153  154  152
+CONECT  154  155  153
+CONECT  155  156  154
+CONECT  156  157  155
+CONECT  157  158  156
+CONECT  158  159  157
+CONECT  159  160  158
+CONECT  160  161  159
+CONECT  161  162  160
+CONECT  162  161
+CONECT  163  164
+CONECT  164  165  163
+CONECT  165  164  166
+CONECT  166  167  165
+CONECT  167  168  166
+CONECT  168  169  167
+CONECT  169  170  168
+CONECT  170  171  169
+CONECT  171  172  170
+CONECT  172  173  171
+CONECT  173  174  172
+CONECT  174  175  173
+CONECT  175  176  174
+CONECT  176  177  175
+CONECT  177  178  176
+CONECT  178  179  177
+CONECT  179  180  178
+CONECT  180  181  179
+CONECT  181  182  180
+CONECT  182  183  181
+CONECT  183  184  182
+CONECT  184  183  185
+CONECT  185  186  184
+CONECT  186  187  185
+CONECT  187  186  188
+CONECT  188  189  187
+CONECT  189  190  188
+CONECT  190  191  189
+CONECT  191  192  190
+CONECT  192  193  191
+CONECT  193  192  194
+CONECT  194  195  193
+CONECT  195  196  194
+CONECT  196  197  195
+CONECT  197  196  198
+CONECT  198  199  197
+CONECT  199  200  198
+CONECT  200  199
+CONECT  201  202
+CONECT  202  201  203
+CONECT  203  202
+END
