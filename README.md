@@ -51,20 +51,22 @@ shown in red and helix1-axis.pdb(transformed) is show in green.*
 
 ## Running instructions for helix axis transformation. (Default files.) 
 
-*Please ensure the proper modules are installed, for full list and
+Please ensure the proper modules are installed, for full list and
 interactive demo please see:
 [https://colab.research.google.com/drive/1IYXW43aQeekV1W7goZX8XrZkBU4yzGAI?usp=sharing ](https://colab.research.google.com/drive/1IYXW43aQeekV1W7goZX8XrZkBU4yzGAI?usp=sharing )
-where dependencies are listed in the top cell.* ) Run 'python3
-ICPTransformation.py' ) ENTER 1 to use default test cases
-helix1-axis.pdb and helix2-axis.pdb, included already in the folder. )
-View the transformation matrix in the terminal and
-helix1AxisTransform.pdb ) If desired, open Chimera and load
-helix2-axis.pdb. Then open helix1AxisTransform.pdb for visual
-verification. ) In the terminal enter the helix pdb filepath associated
+where dependencies are listed in the top cell.* 
+1) Run 'python3 ICPTransformation.py' 
+2) ENTER 1 to use default test cases helix1-axis.pdb and helix2-axis.pdb, included already in the folder. 
+3) View the transformation matrix in the terminal and helix1AxisTransform.pdb 
+4) If desired, open Chimera and load helix2-axis.pdb. Then open helix1AxisTransform.pdb for visual
+verification. 
+5) In the terminal enter the helix pdb filepath associated
 with helix-axis1. In this case, enter 'helix1.pdb'. This will apply the
 transformation matrix to each residue coordinate in helix1.pdb as it did
-to helix1-axis.pdb in step 2. ) Enter 'helix1.pdb' to apply the
-transform to each residue coordinate in helix1.pdb. ) The transformed
+to helix1-axis.pdb in step 2. 
+6) Enter 'helix1.pdb' to apply the
+transform to each residue coordinate in helix1.pdb. 
+7) The transformed
 helix is in fullHelix1Transformed.pdb. Open in chimera along with
 helix2.pdb for viewing.
 
@@ -73,21 +75,16 @@ helix2.pdb for viewing.
 *Please ensure the proper modules are installed, for full list and
 interactive demo please see:
 [https://colab.research.google.com/drive/1IYXW43aQeekV1W7goZX8XrZkBU4yzGAI?usp=sharing ](https://colab.research.google.com/drive/1IYXW43aQeekV1W7goZX8XrZkBU4yzGAI?usp=sharing )
-where dependencies are listed in the top cell.* ) Run 'python3
-ICPTransformation.py' ) ENTER '2' and input the first and second helix
-axis files. The first will be transformed into the second. ) View the
-transformation matrix in the terminal and helix1AxisTransform.pdb ) If
-desired, open Chimera and load second helix axis file entered in step 2.
-Then open helix1AxisTransform.pdb for visual verification of the
-transformation. ) In the terminal enter the helix pdb filepath
-associated with helix-axis1. In this case, enter 'helix1.pdb'. This will
-apply the transformation matrix to each residue coordinate in helix1.pdb
-as it did to helix1-axis.pdb in step 2. ) Enter the file path of the
-helix associated with helix axis 1 from step 2 to apply the transform to
-each residue coordinate in the full helix file. ) The transformed helix
-is in fullHelix1Transformed.pdb. Open in chimera along with helix2.pdb
-for viewing. NOTE: The two files fullHelix1Transformed.pdb and
-helix1AxisTransform.pdb are overwritten each run.
+where dependencies are listed in the top cell.* 
+1) Run 'python3
+ICPTransformation.py' 
+2) ENTER '2' and input the first and second helix axis files. The first will be transformed into the second. 
+3) View the transformation matrix in the terminal and helix1AxisTransform.pdb 
+4) If desired, open Chimera and load second helix axis file entered in step 2. Then open helix1AxisTransform.pdb for visual verification of the transformation. 
+5) In the terminal enter the helix pdb filepath associated with helix-axis1. In this case, enter 'helix1.pdb'. This will apply the transformation matrix to each residue coordinate in helix1.pdb as it did to helix1-axis.pdb in step 2. 
+6) Enter the file path of the
+helix associated with helix axis 1 from step 2 to apply the transform to each residue coordinate in the full helix file. 
+7) The transformed helix is in fullHelix1Transformed.pdb. Open in chimera along with helix2.pdb for viewing. NOTE: The two files fullHelix1Transformed.pdb and helix1AxisTransform.pdb are overwritten each run.
 ## Implementation Details 
 
 *Below are the three methods used to calculate the best transformation
