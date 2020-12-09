@@ -4,6 +4,12 @@ from numpy import load
 from random import randint
 from Bio import PDB
 from numpy import asarray
+from Bio.PDB import PDBParser
+from Bio.PDB.PDBIO import PDBIO
+from Bio.PDB.StructureBuilder import StructureBuilder
+import numpy as np
+
+
 class pdbTransform():
     def __init__(self):
         self.deletedIndex = []
@@ -156,7 +162,7 @@ class pdbTransform():
         #print("Point total of pdb1: " +str(len(coord1)))
         #print("Point total of pdb2: " +str(len(coord2)))
         if len(coord1Copy) != len(coord2):
-            print("Resolving PDB size difference...")
+            print("\nResolving PDB size difference...")
             if len(coord1) > len(coord2):
                 diff = len(coord1) - len(coord2)
                 # assume shape is same, density is diff
@@ -176,6 +182,7 @@ class pdbTransform():
             #print("Point total of pdb2: " +str(len(coord2Copy)))
         
         # (A,B)
+        print("\nCalculating transformation matrix...")
         T = self.icp(np.array(coord1),np.array(coord2))
 
         coord1Adjust = []
@@ -196,14 +203,17 @@ class pdbTransform():
         #https://github.com/ClayFlannigan/icp/blob/master/test.py
         #np.dot(T,coord1[0])
 
-        print("Using transformation matrix:\n"+str(T))
+        print("Transformation matrix:\n"+str(T))
         #print("Length of coord1 "+str(len(coord1Adjust)))
         #print("Length of coord1 "+str(len(coord2)))
-        print("Length of coord 1 adjust: "+str(len(coord1Adjust)))
-        print("Length of coord 2 adjust: "+str(len(coord2Adjust)))
+        #print("Length of coord 1 adjust: "+str(len(coord1Adjust)))
+        #print("Length of coord 2 adjust: "+str(len(coord2Adjust)))
         coord1 = np.array(coord1Adjust)
         coord1T = []
+        #print(coord1Copy)
+        print(coord1T)
         for coord in coord1Copy:
+            #print(coord)
             coord1T.append(np.dot(T,coord))
 
         coord1T.reverse()
@@ -214,75 +224,73 @@ class pdbTransform():
         with open('B_1.txt', 'w') as f:
             for item in B:
                 f.write("%s\n" % str(item))
-        return coord1T
-    def TransformPDBFile(self, fpath):
-        with open(fpath) as f:
-            lines = f.readlines()
-        overHundred = False
-        makeOverHundred = False
-        foundIt = True
-        for line in lines:
-            pdbLine = line.split(' ')
-            #print(pdbLine)
-            xCoord = 0
-            yCoord = 0
-            zCoord = 0
-            totalNums = 0
-            
-            for i in range(len(pdbLine)):
-                #print(totalNums)
-                try:
-                    coordVal = float(pdbLine[i])
-                    totalNums += 1
-                    #print(coordVal)
-                    if not overHundred:
-                        if totalNums == 3:
-                            #print(coordVal)
-                            xCoord = coordVal
-                        elif totalNums == 4:
-                            #print(coordVal)
-                            yCoord = coordVal
-                        elif totalNums == 5:
-                            zCoord = coordVal
-                            #print(coordVal)
-                            #print(pdbLine)
-                            print(xCoord,yCoord,zCoord)
-                    else:
-                        if totalNums == 4:
-                            #print(coordVal)
-                            xCoord = coordVal
-                        elif totalNums == 5:
-                            #print(coordVal)
-                            yCoord = coordVal
-                        elif totalNums == 6:
-                            zCoord = coordVal
-                            #print(coordVal)
-                            #print(pdbLine)
-                            print(xCoord,yCoord,zCoord) 
-                    if totalNums == 2 and int(coordVal) == 99 and foundIt:
-                        makeOverHundred = True
-                        print("Switching")
-                except:
-                    pass
-            if makeOverHundred:
-                overHundred = True
-                foundIt = False
-'''
-def MenuDriver():
-    while True:
-        userChoice = input("Enter '1' for simple transformation and '2' for full-point registration:")
-        if userChoice == '2':
-            coord1 = PDBToNPY("helix1-axis.pdb")
-            coord2 = PDBToNPY("helix2-axis.pdb")
-            TransformAllPoints(coord1,coord2)
-        elif userChoice == "1":
-            print("Performing simple, single-point alignment...")
-        else:
-            print('Whoops, bad input.  Enter 1 or 2 for single point or multiple point alignment, respectively.')
-#TransformPDBFile("helix1-axis.pdb")
-#MenuDriver()
-'''
-x = pdbTransform()
-c1 = x.PDBToNPY("helix1-axis.pdb")
-c2 = x.PDBToNPY("helix2-axis.pdb")
-t3 = x.TransformAllPoints(c1,c2)
+        return (coord1T,T)
+    def CreatePDB(self,coordArray,fPath, ofile):
+        sloppyparser = PDBParser(PERMISSIVE = True, QUIET = True) 
+        structure = sloppyparser.get_structure("MD_system", fPath)
+        print("\nGenerating PDB file...")
+        sb = StructureBuilder()
+        sb.set_header(structure.header)
+        # Iterate through models
+        for i in range(len(list(structure.get_models()))):
+            # Iterate through chains
+            models = list(structure.get_models())
+            counter = 0
+            for j in range(len(list(models[i].get_chains()))):
+                chains = list(models[i].get_chains())
+                #Iterate thgouth residues
+                for k in range(len(list(chains[j].get_residues()))):
+                    #Iterate through 
+                    residues = list(chains[j].get_residues())
+                    for l in range(len(list(residues[k].get_atoms()))):
+                        #Set coord for each
+                        for atom in structure[i][chains[j].id][residues[k].id].get_atoms():
+                            structure[i][chains[j].id][residues[k].id][atom.id].set_coord(np.array((float(coordArray[counter][0]),float(coordArray[counter][1]),float(coordArray[counter][2]))))
+                            #print(structure[i][chains[j].id][residues[k].id][atom.id].get_vector())
+                        counter += 1
+        io=PDBIO()
+        io.set_structure(structure)
+        io.save(ofile)
+        print("Transform file written to: "+ ofile)
+    def TransformHelices(self, fpath1, T):
+        c1 = self.PDBToNPY(fpath1)
+        
+        coord1T = []
+        for coord in c1:
+            coord.append(1)
+            coord1T.append(np.dot(T,coord))
+        coord1T.reverse()
+        self.CreatePDB(coord1T,"helix1.pdb","helix1Transformed.pdb")
+    def Driver(self,fpath1="helix1-axis.pdb",fpath2="helix2-axis.pdb"):
+        c1 = self.PDBToNPY(fpath1)
+        #print(c1)
+        c2 = self.PDBToNPY(fpath2)
+        t3 = self.TransformAllPoints(c1,c2)
+        self.CreatePDB(t3[0],fpath1,"helix1AxisTransform.pdb")
+        '''
+        while True:
+            print("Enter 1 use default helices, enter 2 to enter custom.")
+            choice = input('')
+            if choice == "1":
+                self.TransformHelices("helix1.pdb",t3[1])
+            #elif choice == "2":
+        '''
+def main():
+
+    print("**********Helix axis Transformation**********")
+    choice = input("ENTER 1 to use default files helix1-axis.pdb \nand helix2-axis.pdb.\nENTER 2 to input custom pdb files.\nOption: ")
+    transformObj = pdbTransform()
+    if choice == "1":
+        transformObj.Driver()
+        #input("Would you like to transform helixes using the transform?")
+        '''
+    elif choice == "2":
+        fpath1 = input("Enter fpath of helix-axis1: ")
+        fpath2 = input("Enter fpath of helix-axis2: ")
+        try:
+            transformObj.Driver(fpath1,fpath2)
+        except:
+            print("File not found!")
+            '''
+if __name__ == "__main__":
+    main()

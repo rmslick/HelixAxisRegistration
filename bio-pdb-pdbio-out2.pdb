@@ -1,0 +1,203 @@
+HETATM    1 CAG LYA      0       6.758  40.427   6.823  9.00  0.00          CA  
+HETATM    2 CAG LYA      1       6.783  40.411   6.777  4.00  0.00          CA  
+HETATM    3 CAG LYA      2       6.809  40.390   6.727  2.00  0.00          CA  
+HETATM    4 CAG LYA      3       6.841  40.370   6.668  3.00  0.00          CA  
+HETATM    5 CAG LYA      4       6.875  40.347   6.606  6.00  0.00          CA  
+HETATM    6 CAG LYA      5       6.908  40.321   6.540  1.00  0.00          CA  
+HETATM    7 CAG LYA      6       6.950  40.296   6.467  8.00  0.00          CA  
+HETATM    8 CAG LYA      7       6.985  40.262   6.395  7.00  0.00          CA  
+HETATM    9 CAG LYA      8       7.033  40.238   6.311  9.00  0.00          CA  
+HETATM   10 CAG LYA      9       7.075  40.204   6.229  2.00  0.00          CA  
+HETATM   11 CAG LYA     10       7.124  40.174   6.140  6.00  0.00          CA  
+HETATM   12 CAG LYA     11       7.168  40.137   6.055  3.00  0.00          CA  
+HETATM   13 CAG LYA     12       7.217  40.102   5.962  1.00  0.00          CA  
+HETATM   14 CAG LYA     13       7.268  40.066   5.868  0.00  0.00          CA  
+HETATM   15 CAG LYA     14       7.324  40.035   5.767  1.00  0.00          CA  
+HETATM   16 CAG LYA     15       7.375  39.995   5.670  3.00  0.00          CA  
+HETATM   17 CAG LYA     16       7.432  39.962   5.567  6.00  0.00          CA  
+HETATM   18 CAG LYA     17       7.484  39.920   5.468  0.00  0.00          CA  
+HETATM   19 CAG LYA     18       7.541  39.884   5.363  5.00  0.00          CA  
+HETATM   20 CAG LYA     19       7.592  39.843   5.263  1.00  0.00          CA  
+HETATM   21 CAG LYA     20       7.650  39.806   5.158  8.00  0.00          CA  
+HETATM   22 CAG LYA     21       7.707  39.770   5.053  5.00  0.00          CA  
+HETATM   23 CAG LYA     22       7.759  39.727   4.953  3.00  0.00          CA  
+HETATM   24 CAG LYA     23       7.816  39.691   4.848  1.00  0.00          CA  
+HETATM   25 CAG LYA     24       7.867  39.651   4.750  0.00  0.00          CA  
+HETATM   26 CAG LYA     25       7.924  39.616   4.646  8.00  0.00          CA  
+HETATM   27 CAG LYA     26       7.975  39.577   4.549  7.00  0.00          CA  
+HETATM   28 CAG LYA     27       8.032  39.545   4.448  6.00  0.00          CA  
+HETATM   29 CAG LYA     28       8.082  39.509   4.354  6.00  0.00          CA  
+HETATM   30 CAG LYA     29       8.132  39.474   4.260  4.00  0.00          CA  
+HETATM   31 CAG LYA     30       8.175  39.436   4.174  3.00  0.00          CA  
+HETATM   32 CAG LYA     31       8.224  39.406   4.085  1.00  0.00          CA  
+HETATM   33 CAG LYA     32       8.266  39.372   4.003  9.00  0.00          CA  
+HETATM   34 CAG LYA     33       8.315  39.347   3.919  6.00  0.00          CA  
+HETATM   35 CAG LYA     34       8.356  39.320   3.842  3.00  0.00          CA  
+HETATM   36 CAG LYA     35       8.391  39.289   3.773  9.00  0.00          CA  
+HETATM   37 CAG LYA     36       8.431  39.267   3.702  4.00  0.00          CA  
+HETATM   38 CAG LYA     37       8.465  39.243   3.639  8.00  0.00          CA  
+HETATM   39 CAG LYA     38       8.465  39.243   3.639  1.00  0.00          CA  
+HETATM   40 CAG LYA     39       8.540  39.191   3.499  3.00  0.00          CA  
+HETATM   41 CAG LYA     40       8.605  39.145   3.374  4.00  0.00          CA  
+HETATM   42 CAG LYA     41       8.665  39.102   3.263  4.00  0.00          CA  
+HETATM   43 CAG LYA     42       8.715  39.062   3.166  2.00  0.00          CA  
+HETATM   44 CAG LYA     43       8.764  39.031   3.074  8.00  0.00          CA  
+HETATM   45 CAG LYA     44       8.805  38.999   2.994  3.00  0.00          CA  
+HETATM   46 CAG LYA     45       8.847  38.972   2.918  6.00  0.00          CA  
+HETATM   47 CAG LYA     46       8.881  38.944   2.851  7.00  0.00          CA  
+HETATM   48 CAG LYA     47       8.920  38.924   2.780  7.00  0.00          CA  
+HETATM   49 CAG LYA     48       8.954  38.899   2.717  4.00  0.00          CA  
+HETATM   50 CAG LYA     49       8.987  38.874   2.653  9.00  0.00          CA  
+HETATM   51 CAG LYA     50       9.021  38.848   2.588  2.00  0.00          CA  
+HETATM   52 CAG LYA     51       9.062  38.824   2.515  6.00  0.00          CA  
+HETATM   53 CAG LYA     52       9.097  38.791   2.444  7.00  0.00          CA  
+HETATM   54 CAG LYA     53       9.145  38.765   2.358  7.00  0.00          CA  
+HETATM   55 CAG LYA     54       9.145  38.765   2.358  8.00  0.00          CA  
+HETATM   56 CAG LYA     55       9.188  38.729   2.275  0.00  0.00          CA  
+HETATM   57 CAG LYA     56       9.237  38.699   2.186  6.00  0.00          CA  
+HETATM   58 CAG LYA     57       9.280  38.664   2.102  5.00  0.00          CA  
+HETATM   59 CAG LYA     58       9.329  38.634   2.013  1.00  0.00          CA  
+HETATM   60 CAG LYA     59       9.379  38.603   1.924  3.00  0.00          CA  
+HETATM   61 CAG LYA     60       9.428  38.573   1.835  3.00  0.00          CA  
+HETATM   62 CAG LYA     61       9.471  38.537   1.751  3.00  0.00          CA  
+HETATM   63 CAG LYA     62       9.520  38.507   1.662  3.00  0.00          CA  
+HETATM   64 CAG LYA     63       9.570  38.476   1.573  5.00  0.00          CA  
+HETATM   65 CAG LYA     64       9.613  38.440   1.488  1.00  0.00          CA  
+HETATM   66 CAG LYA     65       9.663  38.409   1.400  0.00  0.00          CA  
+HETATM   67 CAG LYA     66       9.712  38.378   1.310  6.00  0.00          CA  
+HETATM   68 CAG LYA     67       9.755  38.342   1.226  8.00  0.00          CA  
+HETATM   69 CAG LYA     68       9.805  38.311   1.137  1.00  0.00          CA  
+HETATM   70 CAG LYA     69       9.848  38.275   1.053  4.00  0.00          CA  
+HETATM   71 CAG LYA     70       9.848  38.275   1.053  7.00  0.00          CA  
+HETATM   72 CAG LYA     71       9.897  38.244   0.963  1.00  0.00          CA  
+HETATM   73 CAG LYA     72       9.941  38.207   0.879  4.00  0.00          CA  
+HETATM   74 CAG LYA     73       9.991  38.175   0.790  8.00  0.00          CA  
+HETATM   75 CAG LYA     74      10.036  38.138   0.706  2.00  0.00          CA  
+HETATM   76 CAG LYA     75      10.079  38.101   0.622  7.00  0.00          CA  
+HETATM   77 CAG LYA     76      10.129  38.069   0.532  1.00  0.00          CA  
+HETATM   78 CAG LYA     77      10.173  38.032   0.448  6.00  0.00          CA  
+HETATM   79 CAG LYA     78      10.217  37.995   0.364  1.00  0.00          CA  
+HETATM   80 CAG LYA     79      10.261  37.958   0.279  5.00  0.00          CA  
+HETATM   81 CAG LYA     80      10.311  37.926   0.190  0.00  0.00          CA  
+HETATM   82 CAG LYA     81      10.354  37.890   0.105  5.00  0.00          CA  
+HETATM   83 CAG LYA     82      10.397  37.852   0.021  5.00  0.00          CA  
+HETATM   84 CAG LYA     83      10.440  37.816  -0.064  0.00  0.00          CA  
+HETATM   85 CAG LYA     84      10.488  37.786  -0.154  6.00  0.00          CA  
+HETATM   86 CAG LYA     85      10.531  37.750  -0.238  2.00  0.00          CA  
+HETATM   87 CAG LYA     86      10.531  37.750  -0.238  8.00  0.00          CA  
+HETATM   88 CAG LYA     87      10.572  37.715  -0.324  4.00  0.00          CA  
+HETATM   89 CAG LYA     88      10.613  37.679  -0.410  1.00  0.00          CA  
+HETATM   90 CAG LYA     89      10.659  37.650  -0.501  7.00  0.00          CA  
+HETATM   91 CAG LYA     90      10.699  37.616  -0.587  4.00  0.00          CA  
+HETATM   92 CAG LYA     91      10.739  37.582  -0.672  0.00  0.00          CA  
+HETATM   93 CAG LYA     92      10.778  37.548  -0.758  7.00  0.00          CA  
+HETATM   94 CAG LYA     93      10.824  37.519  -0.850  3.00  0.00          CA  
+HETATM   95 CAG LYA     94      10.863  37.485  -0.936  9.00  0.00          CA  
+HETATM   96 CAG LYA     95      10.902  37.452  -1.022  4.00  0.00          CA  
+HETATM   97 CAG LYA     96      10.942  37.418  -1.108  9.00  0.00          CA  
+HETATM   98 CAG LYA     97      10.987  37.390  -1.199  4.00  0.00          CA  
+HETATM   99 CAG LYA     98      11.027  37.356  -1.285  4.00  0.00          CA  
+HETATM  100 CAG LYA     99      11.067  37.323  -1.370  8.00  0.00          CA  
+TER     101      YA     99                                                       
+HETATM  101 CAG LYA  1   0      11.113  37.294  -1.460  2.00  0.00          CA  
+HETATM  102 CAG LYA  1   1      11.155  37.260  -1.544  5.00  0.00          CA  
+HETATM  103 CAG LYA  1   2      11.155  37.260  -1.544  8.00  0.00          CA  
+HETATM  104 CAG LYA  1   3      11.202  37.233  -1.633  1.00  0.00          CA  
+HETATM  105 CAG LYA  1   4      11.242  37.199  -1.717  3.00  0.00          CA  
+HETATM  106 CAG LYA  1   5      11.290  37.172  -1.805  6.00  0.00          CA  
+HETATM  107 CAG LYA  1   6      11.331  37.139  -1.888  8.00  0.00          CA  
+HETATM  108 CAG LYA  1   7      11.377  37.112  -1.977  0.00  0.00          CA  
+HETATM  109 CAG LYA  1   8      11.418  37.079  -2.060  3.00  0.00          CA  
+HETATM  110 CAG LYA  1   9      11.466  37.051  -2.148  5.00  0.00          CA  
+HETATM  111 CAG LYA  1  10      11.514  37.024  -2.235  7.00  0.00          CA  
+HETATM  112 CAG LYA  1  11      11.555  36.991  -2.318  0.00  0.00          CA  
+HETATM  113 CAG LYA  1  12      11.603  36.963  -2.406  2.00  0.00          CA  
+HETATM  114 CAG LYA  1  13      11.653  36.935  -2.493  5.00  0.00          CA  
+HETATM  115 CAG LYA  1  14      11.696  36.901  -2.574  5.00  0.00          CA  
+HETATM  116 CAG LYA  1  15      11.746  36.871  -2.661  8.00  0.00          CA  
+HETATM  117 CAG LYA  1  16      11.791  36.835  -2.743  0.00  0.00          CA  
+HETATM  118 CAG LYA  1  17      11.843  36.805  -2.829  3.00  0.00          CA  
+HETATM  119 CAG LYA  1  18      11.843  36.805  -2.829  6.00  0.00          CA  
+HETATM  120 CAG LYA  1  19      11.889  36.768  -2.910  8.00  0.00          CA  
+HETATM  121 CAG LYA  1  20      11.943  36.736  -2.995  1.00  0.00          CA  
+HETATM  122 CAG LYA  1  21      11.990  36.699  -3.075  3.00  0.00          CA  
+HETATM  123 CAG LYA  1  22      12.045  36.667  -3.159  6.00  0.00          CA  
+HETATM  124 CAG LYA  1  23      12.094  36.629  -3.237  9.00  0.00          CA  
+HETATM  125 CAG LYA  1  24      12.151  36.596  -3.321  2.00  0.00          CA  
+HETATM  126 CAG LYA  1  25      12.201  36.557  -3.399  5.00  0.00          CA  
+HETATM  127 CAG LYA  1  26      12.258  36.523  -3.483  9.00  0.00          CA  
+HETATM  128 CAG LYA  1  27      12.308  36.483  -3.562  2.00  0.00          CA  
+HETATM  129 CAG LYA  1  28      12.359  36.443  -3.641  7.00  0.00          CA  
+HETATM  130 CAG LYA  1  29      12.416  36.408  -3.726  1.00  0.00          CA  
+HETATM  131 CAG LYA  1  30      12.467  36.367  -3.806  1.00  0.00          CA  
+HETATM  132 CAG LYA  1  31      12.517  36.325  -3.887  6.00  0.00          CA  
+HETATM  133 CAG LYA  1  32      12.573  36.288  -3.974  2.00  0.00          CA  
+HETATM  134 CAG LYA  1  33      12.624  36.246  -4.057  8.00  0.00          CA  
+HETATM  135 CAG LYA  1  34      12.664  36.206  -4.129  4.00  0.00          CA  
+HETATM  136 CAG LYA  1  35      12.703  36.171  -4.196  1.00  0.00          CA  
+HETATM  137 CAG LYA  1  36      12.741  36.143  -4.259  8.00  0.00          CA  
+HETATM  138 CAG LYA  1  37      12.771  36.111  -4.315  5.00  0.00          CA  
+HETATM  139 CAG LYA  1  38      12.801  36.081  -4.370  2.00  0.00          CA  
+HETATM  140 CAG LYA  1  39      12.830  36.051  -4.425  9.00  0.00          CA  
+HETATM  141 CAG LYA  1  40      12.860  36.020  -4.481  6.00  0.00          CA  
+HETATM  142 CAG LYA  1  41      12.891  35.986  -4.539  3.00  0.00          CA  
+HETATM  143 CAG LYA  1  42      12.929  35.953  -4.607  0.00  0.00          CA  
+HETATM  144 CAG LYA  1  43      12.968  35.914  -4.679  6.00  0.00          CA  
+HETATM  145 CAG LYA  1  44      13.010  35.867  -4.757  2.00  0.00          CA  
+HETATM  146 CAG LYA  1  45      13.066  35.823  -4.853  8.00  0.00          CA  
+HETATM  147 CAG LYA  1  46      13.126  35.767  -4.958  8.00  0.00          CA  
+HETATM  148 CAG LYA  1  47      13.194  35.706  -5.077  1.00  0.00          CA  
+HETATM  149 CAG LYA  1  48      13.273  35.636  -5.213  9.00  0.00          CA  
+HETATM  150 CAG LYA  1  49      13.362  35.556  -5.366  4.00  0.00          CA  
+HETATM  151 CAG LYA  1  50      13.399  35.533  -5.423  7.00  0.00          CA  
+HETATM  152 CAG LYA  1  51      13.430  35.501  -5.479  8.00  0.00          CA  
+HETATM  153 CAG LYA  1  52      13.468  35.473  -5.541  9.00  0.00          CA  
+HETATM  154 CAG LYA  1  53      13.507  35.441  -5.606  2.00  0.00          CA  
+HETATM  155 CAG LYA  1  54      13.546  35.407  -5.673  6.00  0.00          CA  
+HETATM  156 CAG LYA  1  55      13.586  35.370  -5.742  3.00  0.00          CA  
+HETATM  157 CAG LYA  1  56      13.633  35.337  -5.818  5.00  0.00          CA  
+HETATM  158 CAG LYA  1  57      13.674  35.295  -5.890  3.00  0.00          CA  
+HETATM  159 CAG LYA  1  58      13.722  35.258  -5.970  7.00  0.00          CA  
+HETATM  160 CAG LYA  1  59      13.771  35.218  -6.051  8.00  0.00          CA  
+HETATM  161 CAG LYA  1  60      13.819  35.177  -6.134  9.00  0.00          CA  
+HETATM  162 CAG LYA  1  61      13.868  35.135  -6.217  9.00  0.00          CA  
+HETATM  163 CAG LYA  1  62      13.925  35.096  -6.307  9.00  0.00          CA  
+HETATM  164 CAG LYA  1  63      13.975  35.051  -6.392  9.00  0.00          CA  
+HETATM  165 CAG LYA  1  64      14.032  35.009  -6.485  3.00  0.00          CA  
+HETATM  166 CAG LYA  1  65      14.082  34.961  -6.572  9.00  0.00          CA  
+HETATM  167 CAG LYA  1  66      14.140  34.918  -6.666  8.00  0.00          CA  
+HETATM  168 CAG LYA  1  67      14.197  34.873  -6.760  0.00  0.00          CA  
+HETATM  169 CAG LYA  1  68      14.248  34.823  -6.851  4.00  0.00          CA  
+HETATM  170 CAG LYA  1  69      14.306  34.777  -6.946  0.00  0.00          CA  
+HETATM  171 CAG LYA  1  70      14.364  34.732  -7.042  8.00  0.00          CA  
+HETATM  172 CAG LYA  1  71      14.422  34.685  -7.138  8.00  0.00          CA  
+HETATM  173 CAG LYA  1  72      14.480  34.639  -7.234  9.00  0.00          CA  
+HETATM  174 CAG LYA  1  73      14.538  34.592  -7.330  1.00  0.00          CA  
+HETATM  175 CAG LYA  1  74      14.597  34.546  -7.426  5.00  0.00          CA  
+HETATM  176 CAG LYA  1  75      14.648  34.495  -7.517  0.00  0.00          CA  
+HETATM  177 CAG LYA  1  76      14.706  34.448  -7.613  5.00  0.00          CA  
+HETATM  178 CAG LYA  1  77      14.763  34.404  -7.708  2.00  0.00          CA  
+HETATM  179 CAG LYA  1  78      14.822  34.359  -7.803  8.00  0.00          CA  
+HETATM  180 CAG LYA  1  79      14.879  34.315  -7.897  5.00  0.00          CA  
+HETATM  181 CAG LYA  1  80      14.930  34.266  -7.985  1.00  0.00          CA  
+HETATM  182 CAG LYA  1  81      14.987  34.225  -8.078  8.00  0.00          CA  
+HETATM  183 CAG LYA  1  82      15.037  34.177  -8.164  4.00  0.00          CA  
+HETATM  184 CAG LYA  1  83      15.094  34.138  -8.255  9.00  0.00          CA  
+HETATM  185 CAG LYA  1  84      15.143  34.094  -8.339  4.00  0.00          CA  
+HETATM  186 CAG LYA  1  85      15.192  34.052  -8.422  8.00  0.00          CA  
+HETATM  187 CAG LYA  1  86      15.241  34.012  -8.504  0.00  0.00          CA  
+HETATM  188 CAG LYA  1  87      15.289  33.973  -8.584  1.00  0.00          CA  
+HETATM  189 CAG LYA  1  88      15.337  33.936  -8.663  1.00  0.00          CA  
+HETATM  190 CAG LYA  1  89      15.385  33.902  -8.740  9.00  0.00          CA  
+HETATM  191 CAG LYA  1  90      15.425  33.863  -8.810  4.00  0.00          CA  
+HETATM  192 CAG LYA  1  91      15.472  33.833  -8.883  8.00  0.00          CA  
+HETATM  193 CAG LYA  1  92      15.511  33.800  -8.949  0.00  0.00          CA  
+HETATM  194 CAG LYA  1  93      15.550  33.769  -9.013  8.00  0.00          CA  
+HETATM  195 CAG LYA  1  94      15.581  33.735  -9.070  5.00  0.00          CA  
+HETATM  196 CAG LYA  1  95      15.618  33.710  -9.129  8.00  0.00          CA  
+HETATM  197 CAG LYA  1  96      15.649  33.682  -9.181  8.00  0.00          CA  
+HETATM  198 CAG LYA  1  97      15.678  33.658  -9.230  5.00  0.00          CA  
+HETATM  199 CAG LYA  1  98      15.707  33.636  -9.277  8.00  0.00          CA  
+HETATM  200 CAG LYA  1  99      15.735  33.619  -9.320  7.00  0.00          CA  
+TER     201      YA  1  99                                                       
+END   
