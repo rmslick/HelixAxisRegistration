@@ -93,7 +93,7 @@ class pdbTransform():
         distances, indices = neigh.kneighbors(src, return_distance=True)
         return distances.ravel(), indices.ravel()
 
-
+    # Code adapted from: https://github.com/ClayFlannigan/icp/blob/master/icp.py.  Thanks!
     def icp(self, A, B, init_pose=None, max_iterations=20, tolerance=0.001):
         '''
         The Iterative Closest Point method: finds best-fit transform that maps points A on to points B
@@ -108,7 +108,7 @@ class pdbTransform():
             distances: Euclidean distances (errors) of the nearest neighbor
             i: number of iterations to converge
         '''
-
+        # Initial kernel code provided by: 
         assert A.shape == B.shape
 
         # get number of dimensions
@@ -200,7 +200,7 @@ class pdbTransform():
 
         #print("Point total of pdb1: " +str(len(coord1Adjust)))
         #print("Point total of pdb2: " +str(len(coord2Adjust)))
-        #https://github.com/ClayFlannigan/icp/blob/master/test.py
+        
         #np.dot(T,coord1[0])
 
         print("Transformation matrix:\n"+str(T))
@@ -261,12 +261,24 @@ class pdbTransform():
             coord1T.append(np.dot(T,coord))
         coord1T.reverse()
         self.CreatePDB(coord1T,"helix1.pdb","helix1Transformed.pdb")
+    def TransformFullHelices(self, fpath1, T):
+        c1 = self.PDBToNPY(fpath1)
+        
+        coord1T = []
+        for coord in c1:
+            coord.append(1)
+            coord1T.append(np.dot(T,coord))
+        coord1T.reverse()
+        self.CreatePDB(coord1T,fpath1,"fullHelix1Transformed.pdb")
+        print("Full helix transformed and written to: fullHelix1Transformed.pdb")
+
     def Driver(self,fpath1="helix1-axis.pdb",fpath2="helix2-axis.pdb"):
         c1 = self.PDBToNPY(fpath1)
         #print(c1)
         c2 = self.PDBToNPY(fpath2)
         t3 = self.TransformAllPoints(c1,c2)
         self.CreatePDB(t3[0],fpath1,"helix1AxisTransform.pdb")
+        return t3
         '''
         while True:
             print("Enter 1 use default helices, enter 2 to enter custom.")
@@ -278,19 +290,22 @@ class pdbTransform():
 def main():
 
     print("**********Helix axis Transformation**********")
-    choice = input("ENTER 1 to use default files helix1-axis.pdb \nand helix2-axis.pdb.\nENTER 2 to input custom pdb files.\nOption: ")
+    choice = input("ENTER 1 to use default test cases helix1-axis.pdb \nand helix2-axis.pdb.\nENTER 2 to input custom pdb files.\nOption: ")
     transformObj = pdbTransform()
     if choice == "1":
-        transformObj.Driver()
-        #input("Would you like to transform helixes using the transform?")
-        '''
+        transform = transformObj.Driver()
+        print("**********Full helix Transformation**********")
+        helix1Path = input("Enter the helix pdb filepath assosciated with helix-axis1: ")
+        transformObj.TransformFullHelices(helix1Path,transform[1])
     elif choice == "2":
-        fpath1 = input("Enter fpath of helix-axis1: ")
-        fpath2 = input("Enter fpath of helix-axis2: ")
         try:
-            transformObj.Driver(fpath1,fpath2)
+            fpath1 = input("Enter fpath of helix-axis1: ")
+            fpath2 = input("Enter fpath of helix-axis2: ")
+            transform = transformObj.Driver(fpath1,fpath2)
+            print("**********Full helix Transformation**********")
+            helix1Path = input("Enter the helix pdb filepath assosciated with helix-axis1: ")
+            transformObj.TransformFullHelices(helix1Path,transform[1])
         except:
             print("File not found!")
-            '''
 if __name__ == "__main__":
     main()
