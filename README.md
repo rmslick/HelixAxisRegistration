@@ -1,8 +1,4 @@
-**HW\# - CS723**\
-YOUR NAME\
-DUE DATE\
-
-# Overview {#overview .unnumbered}
+# Overview 
 
 *For our solution to the problem of 3D point-set alignment, we provide
 an implementation of the Iterative Closest Point (ICP) algorithm for 3D
@@ -23,13 +19,15 @@ the results show below, the registration of helices and helix-axis are
 both strong and optimization could stand to render even tighter
 alignments. The program could be extended for full automated alignment
 of helices if a solution to compute helix axis' was provided to feed the
-axis' into the algorithm.NOTE: Please visit:
+axis' into the algorithm.
+
+NOTE: Please visit:
 <https://colab.research.google.com/drive/1IYXW43aQeekV1W7goZX8XrZkBU4yzGAI?usp=sharing>
 where a helix-axis transformation along with the required modules are
 included for ease-of-viewing along with further instructions and code
 explanations.*
 
-## Implementation Details {#implementation-details .unnumbered}
+## Implementation Details 
 
 *Below are the three methods used to calculate the best transformation
 matrix for two sets of 3-D points. This algorithm is agnostic to PCD's
@@ -375,7 +373,7 @@ if __name__ == "__main__":
     main()
 ```
 
-## Sample outputs {#sample-outputs .unnumbered}
+## Sample outputs 
 
 *The following is a visualization sequence of the algorithm. The images
 are captured using UCSF's Chimera for protein visualization. We use
@@ -389,13 +387,13 @@ helix1-axis pdb was opened along with the helix2-axis. As is
 demonstrated below, the icp algorithm proves to be an effective method
 for the alignment of two helices. For reference, helix2-axis.pdb is
 shown in red and helix1-axis.pdb(transformed) is show in green.*
-![image](Latex/PreTransformBounded.jpg){width="\\textwidth"}
-![image](Latex/TopView.png){width="\\textwidth"}
-![image](Latex/SideView1.png){width="\\textwidth"}
-![image](Latex/Front.png){width="\\textwidth"}
-![image](Latex/TopDiagonal.png){width="\\textwidth"}
+![image](Latex/PreTransformBounded.jpg)
+![image](Latex/TopView.png)
+![image](Latex/SideView1.png)
+![image](Latex/Front.png)
+![image](Latex/TopDiagonal.png)
 
-## Running instructions for helix axis transformation. (Default files.) {#running-instructions-for-helix-axis-transformation.-default-files. .unnumbered}
+## Running instructions for helix axis transformation. (Default files.) 
 
 *Please ensure the proper modules are installed, for full list and
 interactive demo please see:
@@ -414,7 +412,7 @@ transform to each residue coordinate in helix1.pdb. ) The transformed
 helix is in fullHelix1Transformed.pdb. Open in chimera along with
 helix2.pdb for viewing.
 
-## Running instructions for helix axis transformation. (Custom files.) {#running-instructions-for-helix-axis-transformation.-custom-files. .unnumbered}
+## Running instructions for helix axis transformation. (Custom files.) 
 
 *Please ensure the proper modules are installed, for full list and
 interactive demo please see:
@@ -435,7 +433,7 @@ is in fullHelix1Transformed.pdb. Open in chimera along with helix2.pdb
 for viewing. NOTE: The two files fullHelix1Transformed.pdb and
 helix1AxisTransform.pdb are overwritten each run.
 
-# References {#references .unnumbered}
+# References 
 
 -   GitHub, <https://github.com/rmslick/HelixAxisRegistration.git>
 
